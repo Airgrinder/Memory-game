@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    list-style-type: none;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    background-color: #26a69a;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    margin: 10px;
+}
+
+.wrapper span{
+    font-size: 18px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.score {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+}
+
+.score-list {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+}
+
+.btn {
+    border-radius: 10px;
+    width: 150px;
+    height: 120px;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.5s;
+}
+
+.button {
+    transition: 0.5s;
+    border-radius: 10px;
+    width: 150px;
+    height: 120px;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.target {
+    transition: 0.5s;
+}
+
+.alpha {
+    background-image: url(assets/apple.png);
+    background-color: #64b5f6;
+}
+
+.beta {
+    background-image: url(assets/kiwi.png);
+    background-color: #42a5f5;
+}
+
+.gamma {
+    background-image: url(assets/mango.png);
+    background-color: #2196f3;
+}
+
+.delta {
+    background-image: url(assets/peach.png);
+    background-color: #1e88e5;
+}
+
+.epsilon {
+    background-image: url(assets/pineapple.png);
+    background-color: #1976d2;
+}
+
+.zeta {
+    background-image: url(assets/watermelon.png);
+    background-color: #1565c0;
+}
+
+.eta {
+    background-image: url(assets/strawberry.png);
+    background-color: #0d47a1;
+}
+
+.theta {
+    background-image: url(assets/lemon.png);
+    background-color: #82b1ff;
+}
+
+.iota {
+    background-image: url(assets/grapes.png);
+    background-color: #448aff;
+}
+
+.kappa {
+    background-image: url(assets/cherries.png);
+    background-color: #2979ff;
+}
+
+.lambda {
+    background-image: url(assets/banana.png);
+    background-color: #2962ff;
+}
+
+.mu {
+    background-image: url(assets/beer.png);
+    background-color: #90caf9;
+}
+
+footer {
+    bottom: 0;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-description {
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    display: flex;
+    color: white;
+}
+
+.footer-description span{
+    margin: 10px;
+}
+
+.footer-description a {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.footer-description a:hover {
+    filter: invert(16%) sepia(33%) saturate(5979%) hue-rotate(248deg) brightness(92%) contrast(99%);
+}
+
+.footer-rss {
+    transition: 0.5s;
+}
+
+.footer-rss:hover{
+    filter: invert(16%) sepia(33%) saturate(5979%) hue-rotate(248deg) brightness(92%) contrast(99%);
+}
